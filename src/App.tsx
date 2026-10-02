@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import * as maplibregl from 'maplibre-gl'
 import type { GeoJSONSource, Map as MapLibreMap } from 'maplibre-gl'
 import type * as GeoJSON from 'geojson'
-import mapWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url'
+import mapWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, Compass, Crosshair, ExternalLink,
   Heart, Layers3, MapPin, Minus, Navigation, Plus, Search, ShieldCheck,
